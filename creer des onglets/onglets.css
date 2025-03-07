@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 150, 136, .5);
+    color: #fff;
+} 
+
+header nav{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: rgba(0, 150, 136, .3);
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+a:hover{
+    background-color: #0fb3a2;
+}
+
+.active{
+    background-color: #316d67;
+}
+
+div{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+}
+
+@media screen and (max-width: 690px) {
+    header nav{
+        gap :0rem;
+        overflow: hidden;
+    } 
+}

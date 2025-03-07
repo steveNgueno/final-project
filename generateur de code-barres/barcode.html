@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode Generator</title>
+    <link rel="stylesheet" href="barcode.css">
+    <script src="barcode.js" defer></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <section>
+        <div>
+            <h2>BARCODE GENERATOR</h2>
+            <div class="form">
+                <input type="text" class="input" placeholder="Enter text here" required>
+                <button class="generate">Generate</button>
+            </div>
+            <div class="Bar">
+                 <div class="bar">
+                <div class="bar1"></div>
+                <div class="bar2"></div>    
+                <div class="bar2"></div>
+                <div class="bar3"></div>    
+                <div class="bar4"></div>    
+                <div class="bar2"></div>    
+                <div class="bar4"></div>    
+            </div>
+            </div>
+           
+            <div class="fill">Fill in the field!</div>
+            <button class="Download" onclick = generatePdf()>Download</button>
+        </div>
+    </section>
+</body>
+</html>

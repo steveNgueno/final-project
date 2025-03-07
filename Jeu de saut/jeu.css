@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(30, 181, 241);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.space-play{
+    background-color: #fff;
+    padding: 2rem 1.5rem 0;
+    border-radius: 8px;
+    
+}
+.space-play > div{
+    overflow-x: hidden;
+    margin: 20px 0;
+}
+
+.line{
+    border-bottom : 1px solid #000;
+    width: 400px;
+}
+
+.elements img{
+    width: 40px;
+    
+}
+
+.elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 200px ;
+}
+
+.boule{
+    background-color: #000;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#avatar{
+    width: 25px;
+}
+
+.boule_animation{
+    animation: anime 1s ease-in infinite reverse running;
+}
+
+@keyframes anime {
+    from{
+        transform: translate(-400px);
+    }
+    
+}
+
+
+
+.avatar_animation{
+    animation: avatar 600ms normal;
+}
+
+@keyframes avatar {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-80px);
+    }
+}
+
+
+
+button{
+    padding: 0.5rem 2rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(0.9);
+}

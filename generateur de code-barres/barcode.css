@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6495ed;
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    padding : 0.5rem;
+}
+
+h2{
+   text-align: center;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    margin-top: 0.7rem;
+}
+
+input{
+    border: 1px solid #979393;
+    width: 75%;
+    padding-left: 0.5rem; 
+    padding: 0.4rem ;
+    outline: none;
+}
+
+.form button{
+    width: 25%;
+    background-color: #6495ed;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+    background-color: #07307a;
+}
+
+.Bar{
+    width: 100%;
+    border: 1px solid #979393; 
+    margin-top: 0.5rem;
+}
+
+.bar{
+    display: flex;
+    padding: 2rem 0;
+    gap: 8px;
+    width: fit-content;
+    margin:auto;
+}
+
+
+.bar1{
+    padding: 3rem 0.8rem;
+    background-color: #979393;
+    border-radius: 5px;
+}
+
+.bar2{
+    padding: 3rem 0.2rem;
+    background-color: #979393;
+    border-radius: 5px;
+}
+
+.bar3{
+    padding: 3rem 1rem;
+    background-color: #979393;
+    border-radius: 5px;  
+}
+.bar4{
+    padding: 3rem 0.5rem;
+    background-color: #979393;
+    border-radius: 5px;
+}
+
+.fill, .Download{
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #bb4141;
+    text-align: center;
+    color: #fff;
+    margin-top: 0.5rem;
+    display: none;
+}
+
+.Download{
+    background-color: #6495ed;
+    border: none;
+}

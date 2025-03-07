@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #f7fafc; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.left{
+    width: 32rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem; 
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding-top: 0;
+}
+
+h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+
+.right{
+    max-width: 32rem; 
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem; 
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    width: 60%;
+    height: 315.41px;
+}
+
+.right p{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.right span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #696565;
+    margin: 1.5rem;
+}
+
+@media screen and (max-width: 1039px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right{
+        width: 28rem;
+    }
+
+    .left{
+        width: 28rem;
+    }
+}
+
+
+</style>
+<body>
+    <div class="left">
+        <img src="images/download1-removebg-preview.png" alt="" style ="height: 155px;">
+        <h1>Steve Ngueno</h1>
+        <p style=" color: #4B5563">Web & mobile app developer</p> 
+        <div style="margin-top: 1rem">
+            <h2 style ="font-weight: 600 ; font-size: 1.125rem; 
+            line-height: 1.75rem">About me</h2>
+            <p style="color:#6B7280; line-height: 1.2rem; width: 80%; margin: auto;">Passionate about web development, I like to create modern et intuitive interfaces.</p>
+        </div>
+    </div>
+       
+    <div class="right">
+        <p>Name <span>Ngueno Tefang Nevil Steve</span></p>
+        <hr>
+        <p>Email <span>nguenosteve3@gmail.com</span></p>
+        <hr>
+        <p>Phone <span>657748358</span></p>
+        <hr>
+        <p>Adress <span>Nkozoa, Yaounde, Cameroun</span></p>
+    </div> 
+   
+</body>
+</html> 
+ 
